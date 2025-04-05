@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CheckStyle-IDEA" serialisationVersion="2">
+    <checkstyleVersion>10.21.1</checkstyleVersion>
+    <scanScope>JavaOnly</scanScope>
+    <copyLibs>$GRADLE_REMOTE_CACHE_PUSH$</copyLibs>
+    <option name="thirdPartyClasspath" />
+    <option name="activeLocationIds">
+      <option value="ac48623b-4678-4c10-8b0e-d5697634af91" />
+    </option>
+    <option name="locations">
+      <list>
+        <ConfigurationLocation id="bundled-sun-checks" type="BUNDLED" scope="All" description="Sun Checks">(bundled)</ConfigurationLocation>
+        <ConfigurationLocation id="bundled-google-checks" type="BUNDLED" scope="All" description="Google Checks">(bundled)</ConfigurationLocation>
+        <ConfigurationLocation id="ac48623b-4678-4c10-8b0e-d5697634af91" type="LOCAL_FILE" scope="All" description="job4j_k8s">$PROJECT_DIR$/config/checkstyle/checkstyle.xml</ConfigurationLocation>
+      </list>
+    </option>
+  </component>
+</project>
