@@ -5,11 +5,11 @@ pipeline {
         stage('kubectl') {
             steps {
                 script {
-                    sh 'kubectl version'
-                    sh 'kubectl apply -f secret.yaml'
-                    sh 'kubectl apply -f configmap.yaml'
-                    sh 'kubectl apply -f deployment.yaml'
-                    sh 'kubectl apply -f service.yaml'
+                    sh '/usr/bin/kubectl version'
+                    sh '/usr/bin/kubectl apply -f secret.yaml'
+                    sh '/usr/bin/kubectl apply -f configmap.yaml'
+                    sh '/usr/bin/kubectl apply -f deployment.yaml'
+                    sh '/usr/bin/kubectl apply -f service.yaml'
                 }
             }
         }
