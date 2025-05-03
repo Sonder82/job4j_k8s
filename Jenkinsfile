@@ -1,5 +1,5 @@
 pipeline {
-     agent { label 'agent-kubectl' }
+     agent { label 'agent-kube' }
 
      tools {
          git 'Default'
