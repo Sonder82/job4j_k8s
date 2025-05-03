@@ -6,6 +6,14 @@ pipeline {
      }
 
      stages {
+     stage('Check env') {
+                 steps {
+                     sh 'echo $PATH'
+                     sh 'whoami'
+                     sh 'which kubectl || echo "kubectl not found"'
+                     sh 'kubectl version --client || echo "kubectl failed"'
+                 }
+             }
          stage('kubectl') {
              steps {
                  script {
