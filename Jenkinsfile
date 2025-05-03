@@ -1,9 +1,9 @@
 pipeline {
-     agent { label 'agent-kube' }
+    agent any
 
-     tools {
-         git 'Default'
-     }
+    environment {
+        PATH = "/usr/bin:$PATH" // добавим путь, где точно есть kubectl
+    }
 
      stages {
      stage('Check env') {
